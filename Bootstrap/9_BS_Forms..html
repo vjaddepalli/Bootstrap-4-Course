@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="./bootstrap/css/style.css">
+    <title>Bootstrap Forms</title>
+    <style>
+        .form-check{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">BS Forms</a>
+    </nav>
+    <!-----------------------------Start Here--------------------------->
+    <div class="container mt-5">
+        <div class="bg-info p-3 text-white">
+            <h1 class="text-center">Register Here</h1>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Confirm Password">
+                </div>
+                <div class="form-group">
+                    <select class="form-control">
+                        <option>Select Designation</option>
+                        <option>Software Engineer</option>
+                        <option>Graphic Designer</option>
+                        <option>Team Lead</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="mr-3">Select Gender:</label>
+                    <div class="form-check mr-3">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                        <label class="form-check-label" for="exampleRadios1">Male</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios1">Female</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="mr-3">Select Languages:</label>
+                    <div class="form-check mr-3">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">Telugu</label>
+                    </div>
+                    <div class="form-check mr-3">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                        <label class="form-check-label" for="defaultCheck1">English</label>
+                    </div>
+                    <div class="form-check mr-3">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                        <label class="form-check-label" for="defaultCheck1">Hindi</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlFile1">Upload File</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+                <div class="form-group text-center">
+                    <button class="btn btn-danger font-weight-bold">Register</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    <!-----------------------------End Here--------------------------->
+    <div style="margin-bottom: 500px;"></div>
+    <!--Bootstrap Js File-->
+    <script src="./bootstrap/js/jquery.js"></script>
+    <script src="./bootstrap/js/popper.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <script src="./bootstrap/js/mdb.js"></script>
+    <!--------------------->
+</body>
+</html>

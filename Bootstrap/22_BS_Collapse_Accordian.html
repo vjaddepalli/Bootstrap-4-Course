@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="./bootstrap/css/style.css">
+    <title>Bootstrap Collapse</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">BS Collapse Accordian</a>
+    </nav>
+    <!-----------------------------Start Here--------------------------->
+    <div class="container mt-5">
+        <!---Collapse----->
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsecard">
+            Click Me
+          </button>
+        <div class="collapse" id="collapsecard">
+            <div class="card">
+                <div class="card-body">
+                    <h2>Bootstrap Course Collapse</h2> 
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis adipisci quisquam, commodi est enim incidunt nam! Eum, doloribus voluptate sit tempore quaerat asperiores totam dolor, nihil atque ut laboriosam officiis.</p>   
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!--------Accordian-------->
+        <div class="accordian" id="accordian-collapse">
+            <div class="card">
+                <div class="card-header bg-primary text-white" data-toggle="collapse" data-target="#question-1">
+                    <h2>What is Bootstrap</h2>
+                </div>
+                <div class="collapse" id="question-1" data-parent="#accordian-collapse">
+                    <div class="card-body">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ipsum, recusandae quasi eligendi, sunt ea veniam sed harum nesciunt nam ducimus architecto reiciendis! Ducimus doloremque odio consectetur illum, libero tempore!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header bg-warning text-white" data-toggle="collapse" data-target="#question-2">
+                    <h2>What is React</h2>
+                </div>
+                <div class="collapse" id="question-2" data-parent="#accordian-collapse">
+                    <div class="card-body">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ipsum, recusandae quasi eligendi, sunt ea veniam sed harum nesciunt nam ducimus architecto reiciendis! Ducimus doloremque odio consectetur illum, libero tempore!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header bg-success text-white" data-toggle="collapse" data-target="#question-3">
+                    <h2>What is Angular</h2>
+                </div>
+                <div class="collapse" id="question-3" data-parent="#accordian-collapse">
+                    <div class="card-body">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ipsum, recusandae quasi eligendi, sunt ea veniam sed harum nesciunt nam ducimus architecto reiciendis! Ducimus doloremque odio consectetur illum, libero tempore!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header bg-danger text-white" data-toggle="collapse" data-target="#question-4">
+                    <h2>What is Vue</h2>
+                </div>
+                <div class="collapse" id="question-4" data-parent="#accordian-collapse">
+                    <div class="card-body">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ipsum, recusandae quasi eligendi, sunt ea veniam sed harum nesciunt nam ducimus architecto reiciendis! Ducimus doloremque odio consectetur illum, libero tempore!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------End Here--------------------------->
+    <div style="margin-bottom: 500px;"></div>
+    <!--Bootstrap Js File-->
+    <script src="./bootstrap/js/jquery.js"></script>
+    <script src="./bootstrap/js/popper.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <script src="./bootstrap/js/mdb.js"></script>
+    <!--------------------->
+</body>
+</html>

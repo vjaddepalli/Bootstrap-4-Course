@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="./bootstrap/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bootstrap Input Groups</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">BS Input Groups</a>
+    </nav>
+    <!-----------------------------Start Here--------------------------->
+    <div class="container mt-5">
+        <!---Input Group Prepend-->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text bg-info text-white">
+                    <i class="fa fa-user-circle"></i>
+                </span>
+            </div>
+            <input type="text" class="form-control" placeholder="User Name">
+        </div>
+
+        <!--Input Group Append-->
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="User Name">
+            <div class="input-group-append">
+                <span class="input-group-text bg-info text-white">
+                    @example.com
+                </span>
+            </div>
+        </div>
+
+        <!----Input Groups Prepend & Append----->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text bg-info text-white">
+                    <i class="fa fa-user-circle"></i>
+                </span>
+            </div>
+            <input type="text" class="form-control" placeholder="User Name">
+            <div class="input-group-append">
+                <span class="input-group-text bg-info text-white">
+                    @example.com
+                </span>
+            </div>
+        </div>
+
+        <!---Input Group Textarea-->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text bg-secondary text-white">
+                    <i class="fa fa-pencil"></i>
+                </span>
+            </div>
+            <textarea rows="3" class="form-control"></textarea>
+        </div>
+
+        <!---Redeem Option-->
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Promo Code">
+            <div class="input-group-append">
+                <span class="input-group-text bg-success">
+                    <a href="#"  class="text-white">Redeem</a>
+                </span>
+            </div>
+        </div>
+
+
+    </div>
+    <!-----------------------------End Here--------------------------->
+    <div style="margin-bottom: 500px;"></div>
+    <!--Bootstrap Js File-->
+    <script src="./bootstrap/js/jquery.js"></script>
+    <script src="./bootstrap/js/popper.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <script src="./bootstrap/js/mdb.js"></script>
+    <!--------------------->
+</body>
+</html>

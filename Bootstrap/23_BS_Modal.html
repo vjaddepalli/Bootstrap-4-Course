@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="./bootstrap/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bootstrap Modal</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">BS Modal</a>
+    </nav>
+    <!-----------------------------Start Here--------------------------->
+    <div class="container mt-5">
+        <button class="btn btn-secondary" data-toggle="modal" data-target="#form-modal">Register</button>
+
+        <div class="modal" id="form-modal">
+            <div class="modal-dialog">
+                <div class="modal-content animated swing">
+                    <div class="modal-header bg-primary text-white p-2">
+                        <h1>Register Here</h1>
+                        <button class="close" data-dismiss="modal">
+                            <i class="fa fa-times-circle"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="User Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="password">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Confirm Password">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="About Yourself"></textarea>
+                            </div>
+                            <div class="form-group text-center">
+                                <input type="submit" class="btn btn-success" value="Register">
+                                <input type="submit" class="btn btn-danger" value="Close" data-dismiss="modal">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+    </div>
+    
+    <!-----------------------------End Here--------------------------->
+    <div style="margin-bottom: 500px;"></div>
+    <!--Bootstrap Js File-->
+    <script src="./bootstrap/js/jquery.js"></script>
+    <script src="./bootstrap/js/popper.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <script src="./bootstrap/js/mdb.js"></script>
+    <!--------------------->
+</body>
+</html>
